@@ -1,0 +1,145 @@
+body {
+    font: small arial,sans-serif;
+    margin: 0;
+    min-height: 616px;
+}
+#cont{
+	width: 96%;
+	height: auto;
+	text-align: center;
+	padding: 2%;
+}
+
+.google{
+	height: 92px;
+    margin-top: 12em;
+    
+}
+#top{
+	height: auto;
+}
+
+.gmail{
+	width: 30%;
+	float: right;
+	clear: both;
+}
+
+/* unvisited link */
+.gmail a:link {
+    color: black;
+    text-decoration: none;
+    padding-left: 2em;
+}
+
+.gmail a:visited {
+    color: black;
+}
+
+/* mouse over link */
+.gmail a:hover {
+    color: black;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.Signin{
+	float: right;
+	clear: both;
+	margin-top: -3em;
+}
+
+/* unvisited link */
+.Signin a:link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    background: #4285f4;
+}
+
+.Signin a:visited {
+	color: #ffffff;
+}
+
+/* mouse over link */
+.Signin a:hover {
+	color: #ffffff;
+}
+
+
+
+#search {
+    height: 39px;
+    display: block;
+    margin-bottom: 2em;
+}
+
+#search>input {
+   
+}
+
+/* unvisited link */
+.lower a:link {
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+    background-color: #DCDCDC;
+    border-radius: 2px;
+}
+
+.lower a:visited {
+    color: black;
+}
+
+/* mouse over link */
+.lower a:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+#quicklinks{
+    width: 100%;
+    height: auto;
+    background-color: #DCDCDC;
+    margin-top: 20em;
+}
+#left{
+    float: left;
+    margin-right: 40em;
+}
+#left a:link {
+    color: black;
+    text-decoration: none;
+    padding-left: 2em;
+}
+
+#left a:visited {
+    color: black;
+}
+
+/* mouse over link */
+#left a:hover {
+    color: black;
+    text-decoration: underline;
+    text-align: left;
+}
+#right{
+    float: left;
+}
+#right a:link {
+    color: black;
+    text-decoration: none;
+    padding-left: 2em;
+}
+
+#right a:visited {
+    color: black;
+}
+
+/* mouse over link */
+#right a:hover {
+    color: black;
+    text-decoration: underline;
+    text-align: left;
+}
